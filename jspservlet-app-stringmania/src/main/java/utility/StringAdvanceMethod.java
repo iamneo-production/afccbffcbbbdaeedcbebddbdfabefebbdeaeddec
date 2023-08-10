@@ -18,7 +18,7 @@ public class StringAdvanceMethod {
 	}
 	public String concat(String one, String two) {
 		if (one == null) {
-			one = ""; mvn 
+			one = ""; 
 		}
 		return one.concat(two);
 	}
