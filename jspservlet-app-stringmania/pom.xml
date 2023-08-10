@@ -42,8 +42,7 @@
 
 </dependency>
 
-
--<dependency>
+<dependency>
 
 <groupId>javax.servlet</groupId>
 
@@ -55,8 +54,7 @@
 
 </dependency>
 
-
--<dependency>
+<dependency>
 
 <groupId>junit</groupId>
 
@@ -68,8 +66,7 @@
 
 </dependency>
 
-
--<dependency>
+<dependency>
 
 <groupId>javax.servlet.jsp</groupId>
 
@@ -81,8 +78,7 @@
 
 </dependency>
 
-
--<dependency>
+<dependency>
 
 <groupId>javax</groupId>
 
@@ -97,8 +93,7 @@
 
 </dependency>
 
-
--<dependency>
+<dependency>
 
 <groupId>javax.servlet.jsp.jstl</groupId>
 
@@ -108,8 +103,7 @@
 
 </dependency>
 
-
--<dependency>
+<dependency>
 
 <groupId>javax.servlet</groupId>
 
@@ -122,15 +116,13 @@
 </dependencies>
 
 
--<build>
+<build>
 
 <finalName>jspservlettest</finalName>
 
+<plugins>
 
--<plugins>
-
-
--<plugin>
+<plugin>
 
 <groupId>org.apache.tomcat.maven</groupId>
 
@@ -139,7 +131,7 @@
 <version>2.2</version>
 
 
--<configuration>
+<configuration>
 
 <port>8080</port>
 
