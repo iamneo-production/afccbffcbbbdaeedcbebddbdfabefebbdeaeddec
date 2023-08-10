@@ -108,27 +108,32 @@
 
     </dependencies>
 
-    <build>
-        <finalName>jspservlettest</finalName>
-        <plugins>
-            <plugin>
-            <groupId>org.apache.maven.plugins</groupId>
-            <artifactId>maven-compiler-plugin</artifactId>
-            <version>3.8.1</version> <!-- Use the appropriate version -->
+  <build>
 
-            <configuration>
-                <source>1.8</source> <!-- Java source version -->
-                <target>1.8</target> <!-- Java target version -->
-            </configuration>
+    <finalName>jspservlettest</finalName>
+
+    <plugins>
+
+        <plugin>
+
+    <groupId>org.apache.tomcat.maven</groupId>
+
+    <artifactId>tomcat7-maven-plugin</artifactId>
+
+    <version>2.2</version>
+
+    <configuration>
+
+    <port>8080</port>
+
+    </configuration>
+
         </plugin>
-            <plugin>
-                <groupId>org.apache.tomcat.maven</groupId>
-                <artifactId>tomcat7-maven-plugin</artifactId>
-                <version>2.2</version>
-                <configuration>
-                    <port>8080</port>
-                </configuration>
-            </plugin>
-        </plugins>
-    </build>
+
+ 
+
+    </plugins>
+
+  </build>
+
 </project>
