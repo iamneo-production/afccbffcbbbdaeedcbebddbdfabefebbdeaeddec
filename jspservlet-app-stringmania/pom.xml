@@ -33,7 +33,7 @@
 
     </dependency>
 
-    <!-- <dependency>
+    <dependency>
 
 <groupId>junit</groupId>
 
@@ -43,7 +43,7 @@
 
 <scope>test</scope>
 
-</dependency> -->
+</dependency> 
 
     <dependency>
 
