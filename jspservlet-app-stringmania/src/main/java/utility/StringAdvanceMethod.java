@@ -16,13 +16,9 @@ public class StringAdvanceMethod {
 	public void setInput2(String input2) {
 		this.input2 = input2;
 	}
-	public String concat(String one, String two) {
-		if (one == null) {
-			one = ""; 
-		}
+	public String concat(String one, String two){
 		return one.concat(two);
 	}
-	
 	public String split(String one, String two){
 		int s = 0;
 		int e = one.indexOf(two);
@@ -36,7 +32,7 @@ public class StringAdvanceMethod {
 		}
 		String last = one.substring(s);
 
-		return result+" "+last;
+		return result+last;
 	}
 	public String indexOf(String one, String two) {
 		return Integer.toString(one.indexOf(two));
