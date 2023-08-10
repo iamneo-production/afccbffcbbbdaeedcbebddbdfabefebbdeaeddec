@@ -14,7 +14,7 @@
     <url>http://maven.apache.org</url>
 
     <dependencies>
-        <dependency>
+        <!-- <dependency>
 
       <groupId>junit</groupId>
 
@@ -24,7 +24,7 @@
 
       <scope>test</scope>
 
-    </dependency>
+    </dependency> -->
 
     <dependency>
 
